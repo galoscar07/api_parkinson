@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "288e971f-027b-4c33-a3f4-036f1d366e33",
+		"name": "API_Parkinson",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET all results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/results",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST create new result",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/results",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET result by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/results/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"results",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT update result by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/results/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"results",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE result by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/results/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"results",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
